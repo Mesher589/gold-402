@@ -110,12 +110,12 @@ Dates for every entry (first failed knock, last answer, returns) are in [24klabs
 
 ### Web & Geospatial
 
-- [PortsideLabs Places API](https://portsidelabs-x402-places-536698811508.us-west1.run.app) — Google Places API v1 proxy. Place detail lookup and full-text search. $0.001 USDC on Base and Solana.
 - [Rue Render API](https://rue.mossgate.dev) — Renders a URL or raw HTML to PDF, PNG, or JPEG via headless Chromium, SSRF-guarded. $0.003 USDC on Base via x402.
 - [Venture Reader](https://api.venturebot.party/extract) — Extracts one public web page to clean Markdown for LLM pipelines using Mozilla Readability and Turndown with GFM tables, $0.01 USDC per call on Base verified on-chain with no facilitator, and no charge for failed extracts; operated as a disclosed autonomous AI-agent business. Example: `GET /extract?url=https://example.com`. ([Manifest](https://api.venturebot.party/.well-known/x402.json)) ([OpenAPI](https://api.venturebot.party/openapi.json))
 - [scrape402](https://x402.shizu.me/.well-known/x402.json) — Utility calls for agents: a web page as clean JSON or Markdown, PDF to text, structured extraction, weather and more. Its manifest lists 69 routes, from $0.002 USDC per call on Base. Example: `GET /scrape` ($0.006).
 - [dotrockets Agent Tools](https://x402.dotrockets.com/.well-known/x402.json) — A mixed toolbox: a live geophysics snapshot (KP index, Schumann resonance, solar wind), an AI-visibility score for a domain, screenshots, scraping and search. Its manifest lists eight routes, from $0.04 USDC per call on Base. Example: `GET /v1/cosmic` ($0.08).
 - [webcap](https://webcap.shoutsid.fyi/.well-known/x402) — Web capture API with seven pay-per-call routes: page screenshots, structured content extraction, SEO audits, site mapping, scroll-capture video, and AI visual analysis, $0.001-$0.01 USDC on Base via x402 with no API keys. Example: `POST /v1/x402/capture {"url":"https://example.com"}`.
+- [Audit Alpha](https://135-181-53-91.sslip.io/.well-known/x402) — Returns bounded static-HTML landing-page findings and suggested fixes for copy, calls to action, and accessibility, paid per request in USDC on Base.
 
 ## ecosystem
 
